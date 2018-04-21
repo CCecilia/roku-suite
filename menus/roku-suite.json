@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle roku-suite",
+        "command": "roku-suite:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "roku-suite",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "roku-suite:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
