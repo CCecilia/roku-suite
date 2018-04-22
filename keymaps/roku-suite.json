@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "roku-suite:toggle",
-    "ctrl-alt-p": "roku-suite:package"
+    "ctrl-alt-1": "roku-suite:package",
+    "ctrl-alt-2": "roku-suite:deploy"
   }
 }

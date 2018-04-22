@@ -5,12 +5,12 @@
         "label": "roku-suite",
         "submenu": [
             {
-                "label": "Toggle",
-                "command": "roku-suite:toggle"
-            },
-            {
                 "label": "Package",
                 "command": "roku-suite:package"
+            },
+            {
+                "label": "Deploy",
+                "command": "roku-suite:deploy"
             }
         ]
 
@@ -25,12 +25,12 @@
           "label": "roku-suite",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "roku-suite:toggle"
-            },
-            {
               "label": "Package",
               "command": "roku-suite:package"
+            },
+            {
+              "label": "Deploy",
+              "command": "roku-suite:deploy"
             }
           ]
         }

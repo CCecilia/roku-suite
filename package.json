@@ -11,14 +11,18 @@
     "Brs"
   ],
   "activationCommands": {
-    "atom-workspace": "roku-suite:package"
+      "atom-workspace": "roku-suite:deploy",
+      "atom-workspace": "roku-suite:package"
   },
+  "activationHooks": ["language-javascript:grammar-used", "language-brightscript:grammar-used"],
   "repository": "https://github.com/CCecilia/roku-suite",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "archiver": "^2.1.1"
+    "archiver": "^2.1.1",
+    "npm": "^5.8.0",
+    "request": "^2.85.0"
   }
 }
