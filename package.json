@@ -2,13 +2,19 @@
   "name": "roku-suite",
   "main": "./lib/roku-suite",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A suite of helpfull tools for Roku development",
   "keywords": [
+      "Roku",
+      "Brightscript",
+      "Roku Channel",
+      "Roku Tools",
+      "Brs"
   ],
   "activationCommands": {
-    "atom-workspace": "roku-suite:toggle"
+    "atom-workspace": "roku-suite:toggle",
+    "atom-workspace": "roku-suite:package"
   },
-  "repository": "https://github.com/atom/roku-suite",
+  "repository": "https://github.com/CCecilia/roku-suite",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
