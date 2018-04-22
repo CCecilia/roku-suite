@@ -4,14 +4,13 @@
   "version": "0.0.0",
   "description": "A suite of helpfull tools for Roku development",
   "keywords": [
-      "Roku",
-      "Brightscript",
-      "Roku Channel",
-      "Roku Tools",
-      "Brs"
+    "Roku",
+    "Brightscript",
+    "Roku Channel",
+    "Roku Tools",
+    "Brs"
   ],
   "activationCommands": {
-    "atom-workspace": "roku-suite:toggle",
     "atom-workspace": "roku-suite:package"
   },
   "repository": "https://github.com/CCecilia/roku-suite",
@@ -20,5 +19,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "archiver": "^2.1.1"
   }
 }
