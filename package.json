@@ -11,11 +11,18 @@
     "Brs"
   ],
   "activationCommands": {
-      "atom-workspace": "roku-suite:deploy",
-      "atom-workspace": "roku-suite:package"
+    "atom-workspace": "roku-suite:debugger"
   },
-  "activationHooks": ["language-javascript:grammar-used", "language-brightscript:grammar-used"],
-  "repository": "https://github.com/CCecilia/roku-suite",
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-brightscript:grammar-used"
+  ],
+  "readme": "",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCecilia/roku-suite"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -23,6 +30,7 @@
   "dependencies": {
     "archiver": "^2.1.1",
     "npm": "^5.8.0",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "xterm": "^3.3.0"
   }
 }

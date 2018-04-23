@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-1": "roku-suite:package",
-    "ctrl-alt-2": "roku-suite:deploy"
+    "ctrl-alt-2": "roku-suite:deploy",
+    "ctrl-alt-3": "roku-suite:debugger"
   }
 }

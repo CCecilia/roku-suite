@@ -11,6 +11,10 @@
             {
                 "label": "Deploy",
                 "command": "roku-suite:deploy"
+            },
+            {
+                "label": "Debugger",
+                "command": "roku-suite:debugger"
             }
         ]
 
@@ -31,6 +35,10 @@
             {
               "label": "Deploy",
               "command": "roku-suite:deploy"
+            },
+            {
+              "label": "Debugger",
+              "command": "roku-suite:debugger"
             }
           ]
         }
